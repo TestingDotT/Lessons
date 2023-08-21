@@ -16,6 +16,7 @@ public class Main {
         if (name.equals("Hello")) {
             // Output
             System.out.printf("%s is not a name", name);
+            System.out.println("\t\t\t\t\t\nNot funny.");
         }
     }
 }
