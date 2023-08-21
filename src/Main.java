@@ -9,7 +9,13 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         // Store/Input
-        System.out.println("Enter a name");
+        System.out.println("Enter a name:");
         String name = scan.nextLine();
+
+        // Check
+        if (name.equals("Hello")) {
+            // Output
+            System.out.printf("%s is not a name", name);
+        }
     }
 }
