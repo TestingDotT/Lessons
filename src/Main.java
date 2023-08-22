@@ -5,9 +5,17 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=========");
-        System.out.print("= 0   0 =\tJava is Awesome!\n");
-        System.out.println("=   v   =");
-        System.out.print("=========");
+        // Scanner
+        Scanner scan = new Scanner(System.in);
+
+        // Store/Input
+        System.out.println("Please enter four names:");
+        String nameOne = scan.nextLine();
+        String nameTwo = scan.nextLine();
+        String nameThree = scan.nextLine();
+        String nameFour = scan.nextLine();
+
+        // Output
+        System.out.printf(nameOne, "", nameTwo, "", nameThree, "", nameFour);
     }
 }
