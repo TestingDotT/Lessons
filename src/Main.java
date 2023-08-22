@@ -16,6 +16,8 @@ public class Main {
         String nameFour = scan.nextLine();
 
         // Output
-        System.out.printf(nameOne, "", nameTwo, "", nameThree, "", nameFour);
+        System.out.printf("%s %s %s %s" + nameFour, nameTwo, nameThree, nameOne);
+
+        scan.close();
     }
 }
