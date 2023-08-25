@@ -31,6 +31,6 @@ public class Main {
         double finalExamGrade = scan.nextDouble();
 
         // Output
-        System.out.println("");
+        System.out.printf("%s", courseName);
     }
 }
