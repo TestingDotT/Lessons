@@ -16,6 +16,5 @@ public class Main {
 
         System.out.println("Enter a number: ");
         int num = scan.nextInt();
-        // test
     }
 }
