@@ -11,10 +11,6 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         // Store/Input
-        System.out.println("Enter a string: ");
-        String string = scan.nextLine();
-
-        System.out.println("Enter a number: ");
-        int num = scan.nextInt();
+        System.out.println("");
     }
 }
