@@ -11,6 +11,6 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         // Store/Input
-        System.out.println("");
+        System.out.println("Enter the radius of the circle: ");
     }
 }
